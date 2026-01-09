@@ -170,7 +170,7 @@ class FilmUygulamasi:
 def calistir():
     neo4j_adres = "bolt://localhost:7687"
     kullanici_adi = "neo4j"
-    sifre = "eliftun4141"
+    sifre = "sifrem"
 
     uygulama = FilmUygulamasi(neo4j_adres, kullanici_adi, sifre)
 
@@ -214,3 +214,4 @@ def calistir():
 
 if __name__ == "__main__":
     calistir()
+
