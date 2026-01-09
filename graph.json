@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "id": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:2",
+            "label": "Movie",
+            "title": "The Matrix",
+            "released": 1999
+        },
+        {
+            "id": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:3",
+            "label": "Person",
+            "name": "Keanu Reeves"
+        },
+        {
+            "id": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:4",
+            "label": "Person",
+            "name": "Carrie-Anne Moss"
+        },
+        {
+            "id": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:5",
+            "label": "Person",
+            "name": "Laurence Fishburne"
+        },
+        {
+            "id": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:6",
+            "label": "Person",
+            "name": "Hugo Weaving"
+        },
+        {
+            "id": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:10",
+            "label": "Person",
+            "name": "Emil Eifrem"
+        },
+        {
+            "id": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:7",
+            "label": "Person",
+            "name": "Lilly Wachowski"
+        },
+        {
+            "id": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:8",
+            "label": "Person",
+            "name": "Lana Wachowski"
+        }
+    ],
+    "links": [
+        {
+            "source": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:3",
+            "target": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:2",
+            "type": "ACTED_IN"
+        },
+        {
+            "source": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:4",
+            "target": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:2",
+            "type": "ACTED_IN"
+        },
+        {
+            "source": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:5",
+            "target": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:2",
+            "type": "ACTED_IN"
+        },
+        {
+            "source": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:6",
+            "target": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:2",
+            "type": "ACTED_IN"
+        },
+        {
+            "source": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:10",
+            "target": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:2",
+            "type": "ACTED_IN"
+        },
+        {
+            "source": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:7",
+            "target": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:2",
+            "type": "DIRECTED"
+        },
+        {
+            "source": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:8",
+            "target": "4:0a2b53ce-c85e-4241-bdf5-af9598ae5c43:2",
+            "type": "DIRECTED"
+        }
+    ]
+}
